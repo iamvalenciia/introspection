@@ -1,0 +1,33 @@
+{
+  "name": "monkeywrench",
+  "version": "0.0.1",
+  "description": "Backend API for Monkey Wrench Forums",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "lint": "eslint src/*.js",
+    "format": "prettier src/* --ignore-path ./.gitignore"
+  },
+  "keywords": [
+    "graphql",
+    "api"
+  ],
+  "author": "Matt Bencomo, Kristina Hayes, Juan Valencia, Innocent Hove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khayes133/monkeywrench/issues"
+  },
+  "homepage": "https://github.com/khayes133/monkeywrench#readme",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.4",
+    "graphql": "^16.6.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.0"
+  }
+}
